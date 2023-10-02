@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    color: rgb(0, 255, 55);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(7, 94, 46);
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(0, 255, 136);
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    opacity: 0.2;
+    width: 150px;
+    height: 200px;
+}
+
+.gallery img:hover {
+    opacity: 1;
+    border: 6px s
+    background-image: llinear-gradient(to top white lightblue);
+}
+nav a:hover{
+    background-image: linear-gradient(white rgb(0, 255, 13));
+box-shadow: 0 10px 5px 0 rgb(0, 128, 32), 0 20px 5px 0 rgb(0, 255, 98);
+transition: 0.5s linear;
+}
