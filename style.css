@@ -47,7 +47,7 @@ nav a {
 
 .gallery img:hover {
     opacity: 1;
-    border: 6px s
+    border: 6px;
     background-image: llinear-gradient(to top white lightblue);
 }
 nav a:hover{
